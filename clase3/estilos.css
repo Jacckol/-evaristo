@@ -1,0 +1,306 @@
+body {
+    font-family: system-ui;
+     background: #cc0000;
+     color: white;
+     text-align: center;
+      } 
+   .cabeza{
+      height:30rem;
+      width:30rem;
+      background-color:#ffeaa7;
+      border-radius:42%;
+      display:block;
+      margin: 50px 400px;
+      position: relative;
+     left:50px;
+    
+        } 
+   .nariz{
+   width: 60px;
+       height:40px;
+       position: relative;
+       background:#ffeaa7;
+       border-radius: 80%;
+       transform: rotate(3deg);
+       border: 3px solid black;
+       top: -179px;
+       left: 550px;
+     margin: -180px 100px;  
+   }
+   .boca {
+     height: 120px;
+     width:100px;
+     background-color: #000;
+     position: fixed;
+     margin: 1px;
+     top:40px ;
+     border-radius: 50%;
+     left:	-10px;
+    
+   }
+   
+   ojos{
+     height: 30px;
+     width: 50px;
+     position: relative;
+     margin: 0 auto;
+     top: -100px;
+     z-index: -3;  
+   }
+   
+   .ojoIzquierdo{
+     position: absolute;
+     background-color: black;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%; 
+     left: 70px; 
+     top: -56px;
+   }
+   
+   .ojoDerecho{
+     position: absolute;
+     background-color: black;
+     height: 30px;
+     width: 30px;
+     top: -51px;
+     left: -40px;
+     border-radius: 50%;
+   }
+   
+   .oreja{
+     position:absolute;
+     height: 140px;
+     width: 140px;
+     margin: 0 auto;
+     right: 0px;
+     top: -350px;
+     left: -150px;
+     background-color: white;
+    
+   }
+   
+   .orejaDerecha{
+     position: relative;
+     height:60px;
+     width:90px;
+     top:-60px;
+     left:250px;
+     background-color:#ffeaa7;
+     border-radius: 80px 80px 40px 40px;
+     transform: rotate(70deg);
+    }
+   .barba {
+       background-color: #ecf0f1;
+       height: 50px;
+       margin: 0 auto;
+       position: relative;
+       top: 190px;
+       width:130px;
+     left: 4px;
+       transform: rotate(-72deg);
+     border-radius: 60%; 
+   }
+   .sombrero{
+     position:absolute;
+     width:560px;
+     height:70px;
+     border-radius: 162px 172px 0 0;
+     background:black;
+     margin: -560px -420px;
+     transform:rotate(-73deg);  
+      top: 760px; 
+   }
+   .sombrero1{
+      content:"";
+     display:block;
+     border-bottom:142px solid black;
+     border-left: 40px solid transparent;
+     border-right: 40px solid transparent;
+     height: 0;
+     width: 350px;
+     margin: 50px -420px;
+     border-radius:150;
+     transform: rotate(-73deg);
+   }
+   .margen{
+     height:40px;
+     width:450px;
+     background:#ffffff;
+     margin: -130px -399px;
+     transform: rotate(-73deg);
+      border-radius:10%;
+   }
+   .cabello{
+     height:80px;
+     width:80px;
+     background:#ffffff;
+     border-radius:50%;
+     margin: -90px -50px; 
+     position:absolute;
+     border:0px solid black;
+   }
+   .cabelloa1{
+     height:50px;
+     width:50px;
+     background:#ffffff;
+     border-radius:50%;
+     margin: -110px -50px; 
+     position:absolute;
+     border:0px solid black;
+   }
+   .traje{
+   display: block; 
+   width: 249px;
+   height: 490px;
+   margin: 169px auto;
+   position: absolute;
+   background: black;
+   transform: rotate(197deg);  
+   top: -70px;
+   left:30px;
+   border-radius:30%;
+   }
+   .camisa{
+       width: 160%;
+       height: 90px;
+       position: absolute;
+       background: #fff;
+       border-top: 10px solid #000;
+       bottom: -120px;
+       z-index: 10;
+     transform: rotate(17deg);
+     top:269px;
+     margin: 10PX 56PX;
+   }
+   .corbata{
+       width: 40px;
+       height: 40px;
+       background: #cc0000;
+       border: 7px solid #000;
+       position: absolute;
+       left: 40px;
+       bottom: -110px;
+       transform: rotate(64deg);
+       z-index: 50;
+     margin: -180px 30px; 
+   }
+   .zapato{
+     position:absolute;
+     left:228px;
+     height:180px;
+     width:84px;
+     z-index:1;
+     background-color:#955f20;
+     border-radius:40%;
+     transform:rotate(-42deg);
+     border:7px solid black;
+     top:123px;
+     margin:-70px -40px;
+   }
+   .zapato2{
+     height:50px;
+     width:183px;
+     position:absolute;
+     z-index:1;
+     border-radius:20%;
+     transform:rotate(160deg);
+     background-color:#955f20;
+     border:7px solid black;
+     left:258px;
+     top:173px;
+     margin:190px -590px;
+   }
+   .zapatoroto{
+    height:50px;
+    width:50px;
+    background:#000; 
+    border-radius:50% ;
+     margin:20px 20px;
+   }
+   .circulo{
+    height:70px;
+    width:70px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-270px -60px;
+     border:px solid black;
+   }
+   .cuadrado{
+    height:50px;
+    width:50px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:270px -30px;
+     border:1px solid black;
+   }
+   .ovalo{
+    height:80px;
+    width:80px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-369px -50px;
+     border:0px solid black;
+     position: absolute;
+   }
+   .pelaje{
+    height:79px;
+    width:79px;
+    background:#ffffff; 
+    border-radius:50%;
+     margin:11px -488px;
+     border:px solid black;
+     position: relative;
+     top:-180px;
+   }
+   .pelajeA{
+    height:79px;
+    width:79px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-214px -500px;
+     border:px solid black;
+     position:absolute;
+   }
+   .cabellera{
+    height:79px;
+    width:79px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:160px -450px;
+     border:px solid black;
+   }
+   .bigote{
+    height:39px;
+    width:39px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-260px -237px;
+     border:px solid black;  
+    
+   }
+   .bigotes{
+    height:39px;
+    width:39px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-400px -230px;
+     border:px solid black;
+   }
+   .brazo{
+     height:20px;
+     width:40px;
+     background:#000;
+     border-radius:20%;
+     margin:30px -393px;
+     border: 1px solid black;
+     transform:rotate(-50deg);
+   }
+   .mano{
+    height:39px;
+    width:39px;
+    background:#ffffff; 
+    border-radius:50% ;
+     margin:-35px -420px;
+     border:1px solid black;
+   }
